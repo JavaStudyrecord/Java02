@@ -1,26 +1,26 @@
-package Java02;
+package javaquestion;
 import java.util.Scanner;
-public class javaquestion4 {
+public class java4 {
 
 	public static void main(String[] args) {
-		//3ê°œì˜ ì •ìˆ˜ë¥¼ ìž…ë ¥í•´ì„œ ì¤‘ê°„ê°’ ì¶œë ¥í•˜ê¸°
+		//3°³ÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Þ¾Æ Áß°£°ª Ãâ·ÂÇÏ±â
 		Scanner d = new Scanner(System.in);
-		System.out.print("ì •ìˆ˜3ê°œ ìž…ë ¥>>>");
+		System.out.print("Á¤¼ö 3°³ ÀÔ·Â>>>");
 		int a = d.nextInt();
 		int b = d.nextInt();
 		int c = d.nextInt();
 		
 		if(((c<a)&&(a<b))||((b<a)&&(a<c)))
 		{
-			System.out.print("ì¤‘ê°„ê°’ì€ "+a+"ìž…ë‹ˆë‹¤");
+			System.out.print("Áß°£°ªÀº "+a);
 		}
 	else if(((a<b)&&(b<c))||((c<b)&&(b<a)))
 		{
-			System.out.print("ì¤‘ê°„ê°’ì€ "+b+"ìž…ë‹ˆë‹¤");
+			System.out.print("Áß°£°ªÀº "+b);
 		}
 	else if(((a<c)&&(c<b))||((b<c)&&(c<a)))
 		{
-			System.out.print("ì¤‘ê°„ê°’ì€ "+c+"ìž…ë‹ˆë‹¤");
+			System.out.print("Áß°£°ªÀº "+c);
 		}
 		
 

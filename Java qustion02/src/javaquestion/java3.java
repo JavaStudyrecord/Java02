@@ -1,8 +1,8 @@
-package Java02;
+package javaquestion;
 import java.util.Scanner;
-public class javaquestion3 {
+public class java3 {
 public static void main(String[] args) {
-	//금액을 입력하여 금액마다 개수 분류하기
+	//돈을 입력받아 오만원, 만원, 천원, 500원, 100원, 50원, 1원으로 갯수 구분시키기 
 	
 	Scanner a = new Scanner(System.in);
 	System.out.print("금액을 입력하시오>>");
@@ -16,8 +16,8 @@ public static void main(String[] args) {
 	b%=1000;
 	System.out.println("백원 "+b/100+"개");
 	b%=100;
-	System.out.println("오십원 "+b/10+"개");
-	b%=10;
+	System.out.println("오십원 "+b/50+"개");
+	b%=50;
 	System.out.println("십원 "+b/10+"개");
 	b%=10;
 	System.out.println("일원 "+b/1+"개");
